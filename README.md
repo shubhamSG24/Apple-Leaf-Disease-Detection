@@ -11,7 +11,7 @@ You can find the dataset [here.](https://www.kaggle.com/competitions/plant-patho
 ## setup
 To create a project from scratch use following steps - -
 
-- Clone the repository : https://github.com/ni3choudhary/Apple-Foliar-Disease-Classification-Deployment.git
+- Clone the repository : https://github.com/shubhamSG24/Apple-Leaf-Disease-Detection
 - Inside the project root directory, Create Python Virtual Environment using below command.
 ```console
 $ python3 -m venv venv
@@ -35,8 +35,5 @@ $ pip install -r requirements.txt
 ```console
 $ python app.py
 ```
-
-• If you want to view the deployed model, click on the following link: Deployed at: https://apple-foliar-disease-classify.herokuapp.com/
-
 • Please do ⭐ the repository, if it helped you in anyway.
 
