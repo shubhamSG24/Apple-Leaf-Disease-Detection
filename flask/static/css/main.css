@@ -1,0 +1,74 @@
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;   
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 12px 24px;
+    background: linear-gradient(to bottom, #252323 0%, #e74c3c 100%);
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: linear-gradient(to bottom, #252323 0%, #e74c3c 100%);
+    color: darkgreen;
+    font-size: 1.5em;
+    transition: all .4s;
+
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.center-container{
+    margin-top: 10%;
+    margin-left: 13%;
+    width: 80%;
+
+    border: 3px solid black;
+    padding: 10px;
+  
+}
+.container .center-container{
+    border: none;
+    
+    margin-top: 10%;
+    margin-left: 11%;
+}
