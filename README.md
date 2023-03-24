@@ -14,7 +14,7 @@ To create a project from scratch use following steps - -
 - Clone the repository : https://github.com/shubhamSG24/Apple-Leaf-Disease-Detection
 - Inside the project root directory, Create Python Virtual Environment using below command.
 ```console
-$ python3 -m venv venv
+$ python -m venv venv
 ``` 
 
 Activate Virtual Environment
